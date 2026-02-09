@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🤍</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="center">
+
+  <div class="card emo">
+    <h2>ادخلي تاريخ ميلادك ✨</h2>
+
+    <div class="date-box">
+      <select id="day">
+        <option value="">اليوم</option>
+      </select>
+
+      <select id="month">
+        <option value="">الشهر</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+
+      <select id="year">
+        <option value="">السنة</option>
+      </select>
+    </div>
+
+    <button class="skip" onclick="checkDate()">تحقق و دخول</button>
+
+    <p id="error" class="error-text"></p>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
